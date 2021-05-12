@@ -28,54 +28,363 @@ synthesized voice.</td></tr>
 </audio></td><td>OO 탁구인 여러분 즐거운 주말 되세요. 오늘 대욱씨가 한가하니 한판 하시죠.</td></tr>
 </table>
 
-<hr>
-<H2>Son : trained on 48 minutes data.</H2>
 
-<h3>Synthesized samples</h3>
+<p>
+<hr>
+<h1>Tacotron2 + WaveNet : Son : Third Test : Remove prenet dropout</h1>
 <table>
 <tr><td><audio controls>
-<source src='samples/son_2_dw_gd.wav' type='audio/wav'>
-</audio></td><td>대욱씨 좋은 날 되세요.</td></tr>
+<source src='samples/son_happy_prince.wav' type='audio/wav'>
+</audio></td><td>행복한 왕자</td></tr>
+<tr><td colspan=2>A sample created by concatenating a short combination of phrases in parentheses
+</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_navi_1019_1.wav' type='audio/wav'>
+</audio></td><td>{잠시 후} {우회전입니다.} {이어서} {이백오십미터 앞} {두 번째} {오른 쪽 도로입니다.}</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_navi_1019_2.wav' type='audio/wav'>
+</audio></td><td><font color=blue>{잠시 후} {좌회전입니다.} {이어서} {백미터 앞} {첫 번째} {왼 쪽 도로입니다.}</font></td></tr>
+<tr><td colspan=2>A sample that is a short synthesis from the above two samples and is made by combination it
+</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_navi_1019_com-1.wav' type='audio/wav'>
+</audio></td><td>{잠시 후} <font color=blue>{좌회전입니다.}</font> {이어서} {이백오십미터 앞} {두 번째} {오른 쪽 도로입니다.}</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_navi_1019_com-2.wav' type='audio/wav'>
+</audio></td><td>{잠시 후} {우회전입니다.} {이어서} <font color=blue>{백미터 앞}</font> {두 번째} <font color=blue>{왼 쪽 도로입니다.}</font></td></tr>
+<tr><td><audio controls>
+<source src='samples/son_navi_1019_com-3.wav' type='audio/wav'>
+</audio></td><td>{잠시 후} {이백오십미터 앞} {오른 쪽 도로입니다.}</td></tr>
+</table>
+
+
+</table>
+
+<p>
+<hr>
+
+
+
+<h1>Tacotron2 + WaveNet : Son's voice. Second Test</h1>
+<table>
+<tr><td><audio controls>
+<source src='samples/son_happy_new_year.wav' type='audio/wav'>
+</audio></td><td>새해 인사</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_fortune.wav' type='audio/wav'>
+</audio></td><td>운세</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_navi.wav' type='audio/wav'>
+</audio></td><td>잠시 후 우회전입니다. 이어서 이백 오십 미터 앞 두번째 오른 쪽 도로입니다.</td></tr>
+<tr><td colspan=2>A sample created by concatenating a short combination of phrases in parentheses
+</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_navi_merged.wav' type='audio/wav'>
+</audio></td><td>{잠시 후} {우회전입니다.} {이어서} {이백오십미터 앞} {두 번째} {오른 쪽 도로입니다.}</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_navi_merged-2.wav' type='audio/wav'>
+</audio></td><td><font color=blue>{잠시 후} {좌회전입니다.} {이어서} {백미터 앞} {첫 번째} {왼 쪽 도로입니다.}</font></td></tr>
+<tr><td colspan=2>A sample that is a short synthesis from the above two samples and is made by combination it
+</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_navi_combine-1.wav' type='audio/wav'>
+</audio></td><td>{잠시 후} <font color=blue>{좌회전입니다.}</font> {이어서} {이백오십미터 앞} {두 번째} {오른 쪽 도로입니다.}</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_navi_combine-2.wav' type='audio/wav'>
+</audio></td><td>{잠시 후} {우회전입니다.} {이어서} <font color=blue>{백미터 앞}</font> {두 번째} <font color=blue>{왼 쪽 도로입니다.}</font></td></tr>
+<tr><td><audio controls>
+<source src='samples/son_navi_combine-3.wav' type='audio/wav'>
+</audio></td><td>{잠시 후} {이백오십미터 앞} {오른 쪽 도로입니다.}</td></tr>
+</table>
+
+
+</table>
+
+<p>
+<hr>
+
+
+<h1>Tacotron2 + WaveNet : Son's voice. First Test</h1>
+<table>
+<tr><td><audio controls>
+<source src='samples/son_n2_r_checkpoint_step001340000_ema.wav' type='audio/wav'>
+</audio></td><td>기사</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_f_r_checkpoint_step001340000_ema.wav' type='audio/wav'>
+</audio></td><td>운세</td></tr>
+<tr><td><audio controls>
+<source src='samples/son_rr_r_checkpoint_step001340000_ema.wav' type='audio/wav'>
+</audio></td><td>잠시 후 우회전입니다. 이어서 이백 오십 미터 앞 두번째 오른 쪽 도로입니다.</td></tr>
+
+
+
+<tr><td><audio controls>
+<source src='samples/son_rr2.wav' type='audio/wav'>
+</audio></td><td>{잠시 후} {우회전입니다.} {이어서} {이백오십미터 앞} <font color='blue'>{두 번째}</font> {오른 쪽 도로입니다.}</td></tr>
+</table>
+
+<p>
+<hr>
+
+<h1>Tacotron2 + WaveNet : trained with MacOS TTS Yuna : combining synthesis spheres</h1>
+
+<table>
+<tr><td><audio controls>
+<source src='samples/yuna_tc_all_checkpoint_step000530000_ema.wav' type='audio/wav'>
+</audio></td><td>{잠시 후} {우회전입니다.} {이어서} {이백 오십 미터 앞} {두번째} {오른 쪽 도로입니다.}</td></tr>
+<tr><td><audio controls>
+<source src='samples/yuna_tc3_all_checkpoint_step000530000_ema.wav' type='audio/wav'>
+</audio></td><td>{잠시 후 우회전입니다.} {이어서 이백 오십 미터 앞} {두번째 오른 쪽 도로입니다.}</td></tr>
+<tr><td><audio controls>
+<source src='samples/yuna_tc4_all_checkpoint_step000530000_ema.wav' type='audio/wav'>
+</audio></td><td>{잠시 후 우회전입니다.} {이어서 이백 오십 미터 앞 두번째 오른 쪽 도로입니다.}</td></tr>
+</table>
+
+
+<p>
+<hr>
+
+<h1>Tacotron VS Tacontron2 : trained with MacOS TTS Yuna</h1>
+
+<h3>Mac os TTS : Yuna</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/yuna_org.wav' type='audio/wav'>
+</audio></td><td>사고 다발 지역입니다.</td></tr>
+</table>
+
+
+
+
+<h3>Tacotron2 + WaveNet (30/3, 530k) : end predictions are correct</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/yuna_t2_a_checkpoint_step000530000_ema.wav' type='audio/wav'>
+</audio></td><td>사고 다발 지역입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/yuna_t2_r_checkpoint_step000530000_ema.wav' type='audio/wav'>
+</audio></td><td>잠시 후 좌회전입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/yuna_t2_rr_checkpoint_step000530000_ema.wav' type='audio/wav'>
+</audio></td><td>잠시 후 우회전입니다. 이어서 이백 오십 미터 앞 두번째 오른 쪽 도로입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/yuna_t2_news_checkpoint_step000530000_ema.wav' type='audio/wav'>
+</audio></td><td>기사</td></tr>
+<tr><td><audio controls>
+<source src='samples/yuna_t2_luck_checkpoint_step000530000_ema.wav' type='audio/wav'>
+</audio></td><td>운세</td></tr>
+</table>
+
+
+<h3>Tacotron + WaveNet (30/3, 1340k)</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/accident_step001340000_ema.wav' type='audio/wav'>
+</audio></td><td>사고 다발 지역입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/left_step001340000_ema.wav' type='audio/wav'>
+</audio></td><td>잠시 후 좌회전입니다.</td></tr>
+</table>
+
+<h3>Tacotron + Griffin-Lim</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/accident.wav' type='audio/wav'>
+</audio></td><td>사고 다발 지역입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/left.wav' type='audio/wav'>
+</audio></td><td>잠시 후 좌회전입니다.</td></tr>
+</table>
+
+<p>
+<hr>
+<H1>Son : trained on 48 minutes data. : first test</H1>
+
+<h3>Tacotron + WaveNet</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/son_accident_step002060000_ema.wav' type='audio/wav'>
+</audio></td><td>사고 다발 지역입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/son2_left_step002060000_ema.wav' type='audio/wav'>
+</audio></td><td>잠시 후 좌회전입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/son2_dw2_step002060000_ema.wav' type='audio/wav'>
+</audio></td><td>대욱님 좋은 날 되세요.</td></tr>
 <tr><td><audio controls>
 <source src='samples/son_2_dw_wd2.wav' type='audio/wav'>
 </audio></td><td>대욱씨 오후에 비가올 예정이에요.</td></tr>
 <tr><td><audio controls>
-<source src='samples/son_2_dw_wd1.wav' type='audio/wav'>
-</audio></td><td>대욱씨 오늘 날씨는 어제보다 사도 높습니다.</td></tr>
+<source src='samples/son2_sk_step002060000_ema.wav' type='audio/wav'>
+</audio></td><td>sk커뮤니케이션즈 화이팅.</td></tr>
 </table>
 
-<h3>Son : ground truth</h3>
+
+
+<h3>Tacotron + Griffin-Lim</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/tc_son.manual.wav' type='audio/wav'>
+</audio></td><td>사고 다발 지역입니다.</td></tr>
+</table>
+
+<h3>Real voice (ground truth)</h3>
 <table>
 <tr><td><audio controls>
 <source src='samples/son_org.wav' type='audio/wav'>
 </audio></td><td>세금을 먹는 하마로 불리우는 사대강 사업 이야기입니다.</td></tr>
 </table>
 
-<h3>Son wave -> Mel-spectrogram -> WaveNet</h3>
+<h3>Real voice -> Mel-spectrogram -> WaveNet</h3>
 <table>
 <tr><td><audio controls>
-<source src='samples/son_wn.wav' type='audio/wav'>
+<source src='samples/tc_son_step002060000_ema.wav' type='audio/wav'>
 </audio></td><td>세금을 먹는 하마로 불리우는 사대강 사업 이야기입니다.</td></tr>
 </table>
-
+Female voice : trained on 1 hour 13 minutes data.
 
 <p>
 <hr>
-<H2>Female voice : trained on 1 hour 13 minutes data.</H2>
-<a href='https://ithub.korean.go.kr/user/total/referenceView.do?boardSeq=5&articleSeq=125&boardGb=T&isInsUpd=&boardType=CORPUS' target=_new>[The training data source]</a>
-<h3>Synthesized samples</h3>
-
+<H1>Female voice : trained on 1 hour 13 minutes data. : First test </H1>
+<h3>Tacotron + WaveNet+330k steps</h3>
 <table>
 <tr><td><audio controls>
-<source src='samples/fv01_6_dw_wd.wav' type='audio/wav'>
-</audio></td><td>대욱 오빠. 오늘 날씨는 어제보다 사도 높고 "오후 한 때" 비가올 예정이에요.</td></tr>
-<tr><td><audio controls>
-<source src='samples/fv01_6_dw_ds.wav' type='audio/wav'>
-</audio></td><td>"대욱 오빠" 미세먼지가 많으니 "마스크" 준비하세요.</td></tr>
-<tr><td><audio controls>
-<source src='samples/fv01_6_ds_b.wav' type='audio/wav'>
-</audio></td><td>미세먼지가 많으니 "마스크" 준비하세요 오빠.</td></tr>
-<tr><td><audio controls>
-<source src='samples/fv01_6_accident_b.wav' type='audio/wav'>
+<source src='samples/fv01_5_h_accident_checkpoint_step001940000_ema.wav' type='audio/wav'>
 </audio></td><td>사고다발 지역이니까 조심해 오빠.</td></tr>
+<tr><td><audio controls>
+<source src='samples/fv01_5_h_range_checkpoint_step001940000_ema.wav' type='audio/wav'>
+</audio></td><td>구간 단속 구간이야 오빠.</td></tr>
+<tr><td><audio controls>
+<source src='samples/fv01_5_h_left_checkpoint_step001940000_ema.wav' type='audio/wav'>
+</audio></td><td>"오빠" 잠시 후 "좌회전"이에요.</td></tr>
+<tr><td><audio controls>
+<source src='samples/fv01_4_accident_checkpoint_step001940000_ema.wav' type='audio/wav'>
+</audio></td><td>사고다발 지역입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/fv01_4_left_q_checkpoint_step001940000_ema.wav' type='audio/wav'>
+</audio></td><td>잠시 후 "좌회전"입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/fv01_4_block_q_checkpoint_step001940000_ema.wav' type='audio/wav'>
+</audio></td><td>"전방" 오십미터 앞 과속방지턱입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/fv01_4_range_checkpoint_step001940000_ema.wav' type='audio/wav'>
+</audio></td><td>구간 단속 구간입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/fv01_4_right_q_checkpoint_step001940000_ema.wav' type='audio/wav'>
+</audio></td><td>잠시 후 "우회전"입니다 이어서 "두번째 오른쪽" 도로입니다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/fv01_4_sk_checkpoint_step001940000_ema.wav' type='audio/wav'>
+</audio></td><td>sk커뮤니케이션즈 화이팅!</td></tr>
+</table>
+
+<h3>Tacotron + Griffin-Lim</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/tc_accident.wav' type='audio/wav'>
+</audio></td><td>사고 다발 지역입니다.</td></tr>
+</table>
+
+
+
+<h3> Real voice (ground truth)</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/fv01_t01_s13.wav' type='audio/wav'>
+</audio></td><td>아이들은 들불놀이를 하고 돌아갈 때에는 으레 이 너구리굴에다 불을 지폈다.</td></tr>
+</table>
+
+<h3>Real voice -> Mel-spectrogram -> WaveNet</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/tc_fv01_step001940000_ema.wav' type='audio/wav'>
+</audio></td><td>아이들은 들불놀이를 하고 돌아갈 때에는 으레 이 너구리굴에다 불을 지폈다.</td></tr>
+</table>
+
+
+
+
+<h3>Tactron + Griffin-Lim </h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/childs_gr.manual.wav' type='audio/wav'>
+</audio></td><td>아이들은 들불놀이를 하고 돌아갈 때에는 으레 이 너구리굴에다 불을 지폈다.</td></tr>
+</table>
+
+
+
+
+
+<h3>Tacotron + Yuna WaveNet</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/wn_accident_step001360000_ema.wav' type='audio/wav'>
+</audio></td><td>사고 다발 지역입니다.</td></tr>
+</table>
+
+<p>
+<hr>
+<h3>Deview발표자가 훈련시킨 Tacotron 셈플</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/gan.mp3' type='audio/mpeg'>
+</audio></td><td>제너러티브 어드벌서리얼 네트워크와 베리에셔널 오토 인코더가 핫하다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/aus.mp3' type='audio/mpeg'>
+</audio></td><td>오스트랄
+로피테쿠스 아파렌시스는 멸종된 사람족 종으로, 현재에는 뼈 화석이 발견되어 있다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/sud.mp3' type='audio/mpeg'>
+</audio></td><td>그리고 정마담한테 주려는거 이거 이거, 이거 이거 장짜리 아니여?</td></tr>
+</table>
+<p>
+<hr>
+<h3>Mac os tts : Yuna</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/gan (1).wav' type='audio/wav'>
+</audio></td><td>제너러티브 어드벌서리얼 네트워크와 베리에셔널 오토 인코더가 핫하다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/aus (1).wav' type='audio/wav'>
+</audio></td><td>오스트랄
+로피테쿠스 아파렌시스는 멸종된 사람족 종으로, 현재에는 뼈 화석이 발견되어 있다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/sud (1).wav' type='audio/wav'>
+</audio></td><td>그리고 정마담한테 주려는거 이거 이거, 이거 이거 장짜리 아니여?</td></tr>
+</table>
+<h3>Tacotron : trained with mac os tts Yuna</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/gan.wav' type='audio/wav'>
+</audio></td><td>제너러티브 어드벌서리얼 네트워크와 베리에셔널 오토 인코더가 핫하다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/aus.wav' type='audio/wav'>
+</audio></td><td>오스트랄
+로피테쿠스 아파렌시스는 멸종된 사람족 종으로, 현재에는 뼈 화석이 발견되어 있다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/sud.wav' type='audio/wav'>
+</audio></td><td>그리고 정마담한테 주려는거 이거 이거, 이거 이거 장짜리 아니여?</td></tr>
+</table>
+<h3>Tacotron : trained with mac os tts Yuna : news texts</h3>
+<table>
+<tr><td><audio controls>
+<source src='samples/gisa_0.wav' type='audio/wav'>
+</audio></td><td>호반건설의 대우건설 인수는 새우가 고래를 삼킨 것으로 비유된다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/gisa_1.wav' type='audio/wav'>
+</audio></td><td>2016년 기준 양사의 자산규모는 대우건설이 호반건설그룹을 다 합친 것 보다 2배 이상 많고 매출액은 3배가 넘는다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/gisa_2.wav' type='audio/wav'>
+</audio></td><td>전문가들은 이번 M&A의 성공에 대해서는 낙관하면서도 인수이후 시너지와 재무적 부담에 대해서는 인색한 평가를 내놨다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/gisa_3.wav' type='audio/wav'>
+</audio></td><td>신평사들 '사업구조상 시너지 기대 힘들다'</td></tr>
+<tr><td><audio controls>
+<source src='samples/gisa_4.wav' type='audio/wav'>
+</audio></td><td>4일 기업신용평가사들은 호반건설의 대우건설 인수에 대해 시너지 측면에서는 큰 기대를 할 수 없다는 데 의견을 모았다.</td></tr>
+<tr><td><audio controls>
+<source src='samples/gisa_5.wav' type='audio/wav'>
+</audio></td><td>NICE신용평가 황덕규 기업평가5실장은 "최근 주택부문 신규 분양물량 감소와 불확실성 증가로 해외사업의 중요성이 확대되고 있다"면서</td></tr>
+<tr><td><audio controls>
+<source src='samples/gisa_6.wav' type='audio/wav'>
+</audio></td><td>"주택전문그룹이 호반건설그룹 편입으로 대우건설의 해외사업물량 확대나 시너지 효과를 기대하기 어려운 것으로 판단된다"고 말했다.</td></tr>
 </table>
